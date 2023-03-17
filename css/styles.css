@@ -1,11 +1,12 @@
 :root {
-  --main-text-color: #2e2f42;
-  --main-bckground-color: #ffffff;
+  --main-text-color: #434455;
+  --main-background-color: #ffffff;
+  --main-title-color: #2e2f42;
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--main-bckground-color, #ffffff);
-  color: var(--main-text-color, #2e2f42);
+  background-color: var(--main-background-color, #ffffff);
+  color: var(--main-text-color, #434455);
 }
 .list {
   list-style: none;
@@ -21,18 +22,19 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-title-color, #2e2f42);
 }
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-title-color, #2e2f42);
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ------------Header--------------- */
 .header-logo {
