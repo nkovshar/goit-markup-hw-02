@@ -4,6 +4,7 @@
   --main-title-color: #2e2f42;
   --logo-color-first: #4d5ae5;
   --logo-color-second: #2e2f42;
+  --
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -37,6 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-text-color, #434455);
 }
 /* ------------Header--------------- */
 .header-logo {
